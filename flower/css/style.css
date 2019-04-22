@@ -1,0 +1,20 @@
+.flower{
+  position:relative;
+  top:100px;
+  left:350px;
+  right:50px;
+  bottom:100px;
+  width:100px;
+  height:100px;
+  background:#fff9b7;
+  border-radius:85px;
+  border:15px solid rgba(0,0,0,0);
+  border-top:15px solid #fff9b7;
+  border-bottom:15px solid #fff9b7;
+  animation: turn 2.5s infinite linear;
+box-shadow:50px 50px #ed5757,  -50px -50px #bb76f7, -50px 50px #6cc141, 50px -50px #517bf7;
+}
+@keyframes turn{
+  from{ transform :rotate(0deg)}
+ to{ transform :rotate(360deg)}
+}
